@@ -1,0 +1,43 @@
+/* colors: #eeeeee for background, #ffa83e for text
+/* #5a4012 for bubble, #ffa83e for headers, #fce6cc for text */
+
+
+body {
+    font-family: "Roboto Condensed", "Open Sans", sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+header, h1, h2, h3, div, p {
+    display: inline-block;
+}
+
+h1 {
+    Padding: 10px;
+    font-size: 48px;
+    font: 'Roboto Condensed';
+}
+
+h2 {
+    padding: 10px;
+    font-size: 36px;
+    font: 'Open Sans';
+}
+
+h3 {
+    padding: 5px;
+    font-size: 24px;
+    font: 'Roboto Condensed';
+}
+
+p {
+    padding: 5x;
+    font-size: 12px;
+    font: 'Open Sans';
+}
