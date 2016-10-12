@@ -3,41 +3,92 @@
 
 
 body {
-    font-family: "Roboto Condensed", "Open Sans", sans-serif;
+    font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+    background: #fce6cc;
+}
+
+header {
+    font-size: 36px;
+    text-align: right;
+    width: 100%;
+    background: #ffa83e;
+    color: #eeeeee;
+    padding: 30px 0px 8px 0px;
 }
 
 footer {
     text-align: center;
     padding: 5px;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     width: 100%;
-}
-
-header, h1, h2, h3, div, p {
-    display: inline-block;
+    color: #5a4012;
+    background: #fce6cc;
 }
 
 h1 {
+    text-align: center;
     Padding: 10px;
     font-size: 48px;
-    font: 'Roboto Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #ffa83e;
 }
 
 h2 {
     padding: 10px;
-    font-size: 36px;
-    font: 'Open Sans';
-}
-
-h3 {
-    padding: 5px;
     font-size: 24px;
-    font: 'Roboto Condensed';
+    font-family: 'Open Sans', sans-serif;
 }
 
-p {
-    padding: 5x;
-    font-size: 12px;
-    font: 'Open Sans';
-}
+@media screen and (max-width: 699px) {
+    img {
+        max-height: 100%;
+        max-width: 60%;
+        
+    }
+
+    div.content {
+        padding: 5px;
+        background-color: #5a4012;
+        color: #fce6cc;
+        display: inline-block
+        }
+    h3 {
+        font-size: 24px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        display: inline-block;
+        }
+
+    p {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        display: inline-block;
+        }
+    }
+
+@media screen and (min-width: 700px) {
+    img {
+        width: 500px;
+        height: auto;
+        float: left;
+        padding: 0px 0px 0px 20px;
+    }
+    div.content{
+        padding: 200px 10px 295px 10px;
+        background-color: #5a4012;
+        color: #fce6cc;
+        max-width: 35%;
+        height: inherit;
+        float: right;
+        }
+    h3 {
+        font-size: 24px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        }
+    p {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        }
+    }
