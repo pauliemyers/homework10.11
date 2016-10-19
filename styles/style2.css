@@ -1,0 +1,225 @@
+
+html {
+    margin: 0px;
+}
+
+body.home {
+    font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+    background: #E0D9D1;
+    margin: 0px;
+}
+
+body.games {
+    font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+    background: #fcd6cc;
+    margin: 0px;
+}
+
+body.art {
+    font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+    background: #fcf2cc;
+    margin: 0px;
+}
+
+body.music {
+    font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+    background: #fccccf;
+    margin: 0px;
+}
+
+body.design {
+    font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+    background: #f0c2ca;
+    margin: 0px;
+}
+
+body.stream {
+    font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+    background: #f7bcec;
+    margin: 0px;
+}
+
+footer.home {
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    bottom: 0px;
+    color: #372A1C;
+    background: #E0D9D1;
+    width: 100%;
+}
+
+footer.games {
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    bottom: 0px;
+    color: #7a4634;
+    background: #fcd6cc;
+    width: 100%;
+}
+
+footer.art {
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    bottom: 0px;
+    color: #5a4012;
+    background: #fcf2cc;
+    width: 100%;
+}
+
+footer.music {
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    bottom: 0px;
+    color: #5a4012;
+    background: #fccccf;
+    width: 100%;
+}
+
+footer.design {
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    bottom: 0px;
+    color: #682c40;
+    background: #f0c2ca;
+    width: 100%;
+}
+
+footer.stream {
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    bottom: 0px;
+    color: #4f0949;
+    background: #f7bcec;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    Padding: 10px;
+    font-size: 48px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #5a4012;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background color: #fce6cc;
+    color: #ffa83e;
+    text-align: center;
+    }
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding: 155px 20px 155px 20px;
+    background-color: #5a4012;
+    color: #fce6cc;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%; }
+.c3-1-home, .c3-2-home, .c3-3-home, .c3-4-home, .c3-5-home {
+        width: 50%;
+}
+
+header {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    background: #ffa83e;
+    color: #fce6cc;
+    padding: 8px;
+}
+
+@media (min-width: 600px) {
+    header {
+    font-size: 24px;
+    text-align: right;
+    width: 100%;
+    background: #ffa83e;
+    color: #fce6cc;
+    padding: 10px, 0px, 30px, 10px;
+    }
+    .c1, .c2, .c5 {
+        width: 100%
+    }
+    .c3, .c4{
+        width: 50%;
+    }
+    .c3-1-home, .c3-2-home, .c3-3-home, .c3-4-home, .c3-5-home {
+        width: 50%;
+    }
+     .c4-home {
+        text-align: center;
+    }
+}
+
+@media (min-width: 800px) {
+    
+    header {
+    font-size: 36px;
+    text-align: right;
+    width: 100%;
+    background: #ffa83e;
+    color: #fce6cc;
+    padding: 30px 0px 8px 0px;
+    }
+    .c1, .c2, .c5 {
+        width: 100%;
+    }
+    .c3 {
+        width: 400px;
+        padding: 50px;
+    }
+    .c3, .c4{
+        Width: 350px
+    }
+    .c3-1-home, .c3-2-home, .c3-3-home, .c3-4-home, .c3-5-home {
+        width: 300px;
+    }
+    .c4-home {
+        text-align: center;
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+    
+
+/* new photo colors: #fcf2cc text, #5a4012 dark, #ffc13e lighter
+new design colors: #f0c2ca text, #682c40 dark, #dc366e lighter
+new streaming colors: #f7bcec text, #4f0949 dark, #bb549e lighter
+new game dev colors: #fcd6cc text, #7a4634 dark, #ff7c3e lighter
+new audio colors: #fccccf text, #7a3934 dark, #7a3934 lighter
+new home colors: #E0D9D1 text, #372A1C dark, #9E9184 lighter
+*/
