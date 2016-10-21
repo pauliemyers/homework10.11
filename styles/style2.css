@@ -216,10 +216,76 @@ header {
 }
     
 
-/* new photo colors: #fcf2cc text, #5a4012 dark, #ffc13e lighter
-new design colors: #f0c2ca text, #682c40 dark, #dc366e lighter
-new streaming colors: #f7bcec text, #4f0949 dark, #bb549e lighter
-new game dev colors: #fcd6cc text, #7a4634 dark, #ff7c3e lighter
-new audio colors: #fccccf text, #7a3934 dark, #7a3934 lighter
-new home colors: #E0D9D1 text, #372A1C dark, #9E9184 lighter
+/* new photo colors: #fcf2cc text, #573f16 dark, #ffc13e lighter, #ffe3ab lightest
+new design colors: #f0c2ca text, #661b2f dark, #dc366e lighter, #d993ab lightest
+new streaming colors: #f7bcec text, #4d1346 dark, #bb549e lighter, #b87da7 lightest
+new game dev colors: #fcd6cc text, #7a4634 dark, #ff7c3e lighter, #ffc6ad lightest
+new audio colors: #fccccf text, #7a3934 dark, #ff4640 lighter, #ffadad lightest
+new home colors: #E0D9D1 text, #372A1C dark, #9E9184 lighter, #d4b8a5 lightest
 */
+
+/* DARKEST: hue, 57, 47... MIDDLE: hue, 74, 100... LIGHTEST: hue, 32, 100... DARK GRAY: Hue, 28, 59... LIGHT GRAY: Hue, 12, 78
+
+Audio hue: 4
+Games hue: 15
+Home hue: 31
+Photo hue: 37
+Stream hue: 308
+Design hue: 344
+
+AUDIO
+Darkest: 4, 57, 42 #6b322e
+Dark gray: 4, 28, 28 #473533
+Middle: 4, 74, 71 #b3372e
+Middle gray: 4, 28, 53 #876461
+Light gray: 4, 28, 78 #c7938f
+Lightest: 4, 32, 100 #ffb3ad
+Light white: 4, 12, 100 #ffe2e0
+
+GAMES
+Darkest: 15, 57, 42 #6b3d2e
+Dark gray: 15, 28, 28 #453732
+Middle: 15, 74, 71 #b3522e
+Middle gray: 15, 28, 53 #876b61
+Light gray: 15, 28, 78 #c79d8f
+Lightest: 15, 32, 100 #ffc2ad
+Light white: 15, 12, 100 #ffe8e0
+
+
+PHOTO
+Darkest: 37, 57, 42 #6b542e
+Dark gray: 37, 28, 28 #453d32
+Middle: 37, 74, 71 #b5822f
+Middle gray: 37, 28, 53 #877961
+Light gray: 37, 28, 78 #c7b28f
+Lightest: 37, 32, 100 #ffe0ad
+Light White: 37, 12, 100 #fff3e0
+
+HOME
+Darkest: 189, 29, 42 #4a6469
+Dark gray: 189, 12, 28 #3f4647
+Middle: 189, 37, 71 #72abb5
+Middle gray: 189, 12, 53 #768385
+Light gray: 189, 12, 78 #afc3c7
+Lightest: 189, 16, 100 #d6f9ff
+Light White: 189, 06, 100 #f0fdff
+
+STREAM
+Darkest: 308, 57, 42 #692d61
+Dark gray: 308, 28, 28 #473345
+Middle: 308, 74, 71 #b52fa3
+Middle gray: 308, 28, 53 #876182
+Light gray: 308, 28, 78 #c78fbf
+Lightest: 308, 32, 100 #ffadf4
+Light white: 308, 12, 100 #ffe0fb
+
+DESIGN
+Darkest: 344, 57, 42 #6b2e3e
+Dark gray: 344, 28, 28 #473339
+Middle: 344, 74, 71 #b52f53
+Middle gray: 37, 28, 53 #87616b
+Light gray: 344, 28, 78 #c78f9e
+Lightest: 344, 32, 100 #ffadc3
+Light white: 344, 12, 100 #ffe0e9
+
+texture is from: https://upload.wikimedia.org/wikipedia/commons/8/84/Parchment.00.jpg */
