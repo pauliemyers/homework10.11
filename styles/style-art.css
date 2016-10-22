@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Ailerons;
+    src: url(font/ailerons/ailerons-typeface.otf);
+}
+@font-face {
+    font-family: Coves;
+    src: url(font/coves-font/coves-light.otf);
+}
+@font-face {
+    font-family: Coves;
+    src: url(font/coves-font/coves-bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Kano;
+    src: url(font/kano_regular/kano.otf);
+}
+@font-face {
+    font-family: Pier Sans;
+    src: url(font/piersans-freeforpersonaluse/pier-regular.otf);
+}
+@font-face {
+    font-family: Pier Sans;
+    src: url(font/piersans-freeforpersonaluse/pier-bold.otf);
+    font-weight: bold;
+}
+
+/*End of getting fonts in there
+
+
+ART
+Dark gray: 37, 28, 28 #453d32; rgb(69, 61, 50)
+Darkest: 37, 57, 42 #6b542e; rgb(105, 82, 45)
+Middle gray: 37, 28, 53 #877961; rgb(133, 118, 95)
+Middle: 37, 74, 71 #b5822f; rgb(179, 128, 46)
+Light gray: 37, 28, 78 #c7b28f; rgb(199, 178, 143)
+Lightest: 37, 32, 100 #ffe0ad; rgb(255, 224, 173)
+Light White: 37, 12, 100 #fff3e0; rgb(255, 243, 224)
+
+
+*/
+
+html {
+    margin: 0px;
+}
+body {
+    background-color: #f0fdff;
+}
+
+@media (min-width: 800px) {
+    header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: rgba(105, 82, 45, .8);
+        color: #ffe0ad;
+        font-family: "Ailerons", sans-serif;
+        font-size: 64px;
+        text-align: center;
+    }
+    footer {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background-color: rgba(105, 82, 45, .8);
+        color: #ffe0ad;
+        font-size: 16px;
+        font-family: "Kano", sans-serif;
+        text-align: center;
+    }
+    div.container {
+        display: -webkit-flex;
+        display: flex;
+        -webkid-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    div.c1, div.c2, div.c3, div.c4, div.c5, div.c6 {
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+}
+@media (max-width: 799px) {
+         
+    header {
+        position: relative;
+        top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(105, 82, 45);
+        color: #ffe0ad;
+        font-family: "Ailerons", sans-serif;
+        font-size: 64px;
+        text-align: center;
+    }
+    footer {
+        position: relative;
+        bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(105, 82, 45);
+        color: #ffe0ad;
+        font-size: 16px;
+        font-family: "Kano", sans-serif;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+div.c1, div.c2, div.c3, div.c4, div.c5, div.c6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 10px 0px;
+    }
+}

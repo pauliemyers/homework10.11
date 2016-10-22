@@ -5,37 +5,37 @@ html {
 
 body.home {
     font-family: "Open Sans Condensed", "Open Sans", sans-serif;
-    background: #E0D9D1;
+    background-image: url("../images/background-test/home3.jpg");
     margin: 0px;
 }
 
 body.games {
     font-family: "Open Sans Condensed", "Open Sans", sans-serif;
-    background: #fcd6cc;
+    background-image: url("../images/background-test/games3.jpg");
     margin: 0px;
 }
 
 body.art {
     font-family: "Open Sans Condensed", "Open Sans", sans-serif;
-    background: #fcf2cc;
+    background-image: url("../images/background-test/art3.jpg");
     margin: 0px;
 }
 
 body.music {
     font-family: "Open Sans Condensed", "Open Sans", sans-serif;
-    background: #fccccf;
+    background-image: url("../images/background-test/audio3.jpg");
     margin: 0px;
 }
 
 body.design {
     font-family: "Open Sans Condensed", "Open Sans", sans-serif;
-    background: #f0c2ca;
+    background-image: url("../images/background-test/design3.jpg");
     margin: 0px;
 }
 
 body.stream {
     font-family: "Open Sans Condensed", "Open Sans", sans-serif;
-    background: #f7bcec;
+    background-image: url("../images/background-test/stream3.jpg");
     margin: 0px;
 }
 
