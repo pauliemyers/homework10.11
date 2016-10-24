@@ -28,14 +28,14 @@
 /*End of getting fonts in there
 
 
-AUDIO
-Dark gray: 4, 28, 28 #473533; rgb(69, 51, 50)
-Darkest: 4, 57, 42 #6b322e; rgb(105, 48, 45)
-Middle gray: 4, 28, 53 #876461; rgb(133, 98, 95)
-Middle: 4, 74, 71 #b3372e; rgb(179, 55, 46)
-Light gray: 4, 28, 78 #c7938f; rgb(199, 147, 143)
-Lightest: 4, 32, 100 #ffb3ad; rgb(255, 179, 173)
-Light white: 4, 12, 100 #ffe2e0; rgb(255, 226, 224)
+HOME and ABOUTME
+Dark gray: HSL(189, 12, 28); #3f4647; rgb(61, 68, 69)
+Darker: HSL(189, 29, 42); #4a6469; rgb(74, 100, 105)
+Middle gray: HSL(189, 12, 53); #768385; rgb(118, 131, 133)
+Middle: HSL(189, 37, 71); #72abb5; rgb(112, 170, 179)
+Light gray: HSL(189, 12, 78); #afc3c7; rgb(afc3c7)
+Lightest: HSL(189, 16, 100); #d6f9ff; rgb(214, 250, 255)
+Light White: HSL(189, 06, 100); #f0fdff; rgb(242, 253, 255)
 
 
 */
@@ -45,15 +45,15 @@ html {
 }
 
 a.banner:link {
-    color: #ffb3ad;
+    color: #d6f9ff;
     text-decoration: none;
 }
 a.banner:visited {
-    color: #ffb3ad;
+    color: #d6f9ff;
     text-decoration: none;
 }
 a.banner:hover {
-    color: #ffe2e0;
+    color: #f0fdff;
     text-decoration: none;
 }
 @media (min-width: 800px) {
@@ -64,22 +64,23 @@ a.banner:hover {
     header {
         position: fixed;
         top: 0px;
+        margin: 0px;
         width: 100%;
-        background-color: rgba(105, 48, 45, .8);
-        color: #ffb3ad;
+        background-color: rgba(74, 100, 105, .8);
+        color: #d6f9ff;
         font-family: "Ailerons", sans-serif;
         font-size: 64px;
         text-align: center;
     }
-         .hamburger {
-        background-color: rgba(105, 48, 45, .8);
+    .hamburger {
+        background-color: rgba(74, 100, 105, .8);
         top: 77px;
         position: fixed;
         width: 100%;
         margin: 0px;
         line-height: 45px;
         padding: 5px 15px 5px 15px;
-        color: #ffb3ad;
+        color: #d6f9ff;
         border: 0;
         font-size: 48px;
     }
@@ -88,7 +89,7 @@ a.banner:hover {
         bottom: 0px;
         width: 100%;
         padding: 10px 0px 10px 0px;
-        background-color: rgba(105, 48, 45, .8);
+        background-color: rgba(74, 100, 105, .8);
         color: #d6f9ff;
         font-size: 16px;
         font-family: "Kano", sans-serif;
@@ -115,22 +116,21 @@ a.banner:hover {
 }
 @media (max-width: 799px) {
     body {
-    background-color: #ffe2e0;
+    background-color: #f0fdff;
     margin: 0px;
 }
     header {
         position: relative;
         top: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(105, 48, 45);
-        color: #ffb3ad;
+        width: 100%;
+        background-color: rgb(74, 100, 105);
+        color: #d6f9ff;
         font-family: "Ailerons", sans-serif;
         font-size: 64px;
         text-align: center;
     }
     .hamburger{
-        background-color: rgb(105, 48, 45);
+        background-color: rgb(74, 100, 105);
         top: 0px;
         position: relative;
         text-align: center;
@@ -138,24 +138,23 @@ a.banner:hover {
         margin: 0px;
         line-height: 45px;
         padding: 5px 5px 5px 5px;
-        color: #ffb3ad;
+        color: #d6f9ff;
         border: 0;
         font-size: 40px;
-    }
+}
     footer {
         position: relative;
         bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(105, 48, 45);
-        color: #ffb3ad;
+        width: 100%;
+        background-color: rgb(74, 100, 105);
+        color: #d6f9ff;
         font-size: 16px;
         font-family: "Kano", sans-serif;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
-   div.c1 {
+    div.c1 {
         display: block;
         text-align: center;
         padding: 20px 0px 10px 0px;

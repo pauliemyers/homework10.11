@@ -1,3 +1,5 @@
+/* FONT IMPORT */
+
 @font-face {
     font-family: Ailerons;
     src: url(font/ailerons/ailerons-typeface.otf);
@@ -25,8 +27,7 @@
     font-weight: bold;
 }
 
-/*End of getting fonts in there
-
+/*COLORS
 
 STREAM
 Dark gray: 308, 28, 28 #473345; rgb(60, 50, 67)
@@ -36,18 +37,34 @@ Middle: 308, 74, 71 #b52fa3; rgb(179, 46, 159)
 Light gray: 308, 28, 78 #c78fbf; rgb(199, 143, 191)
 Lightest: 308, 32, 100 #ffadf4; rgb(255, 173, 243)
 Light white: 308, 12, 100 #ffe0fb; rgb(255, 224, 251)
-
-
 */
+
+
+/* general set-up */
 
 html {
     margin: 0px;
 }
-body {
-    background-color: #f0fdff;
+a.banner:link {
+    color: #ffadf4;
+    text-decoration: none;
+}
+a.banner:visited {
+    color: #ffadf4;
+    text-decoration: none;
+}
+a.banner:hover {
+    color: #ffe0fb;
+    text-decoration: none;
 }
 
+/* media queries */
+
 @media (min-width: 800px) {
+    body {
+    background-color: #f0fdff;
+    margin: 0px;
+}
     header {
         position: fixed;
         top: 0px;
@@ -58,10 +75,23 @@ body {
         font-size: 64px;
         text-align: center;
     }
+         .hamburger {
+        background-color: rgba(105, 45, 97, .8);
+        top: 77px;
+        position: fixed;
+        width: 100%;
+        margin: 0px;
+        line-height: 45px;
+        padding: 5px 15px 5px 15px;
+        color: #ffadf4;
+        border: 0;
+        font-size: 48px;
+    }
     footer {
         position: fixed;
         bottom: 0px;
         width: 100%;
+        padding: 10px 0px 10px 0px;
         background-color: rgba(105, 45, 97, .8);
         color: #ffadf4;
         font-size: 16px;
@@ -69,19 +99,29 @@ body {
         text-align: center;
     }
     div.container {
+        margin-top: 10%;
         display: -webkit-flex;
         display: flex;
         -webkid-flex-flow: row wrap;
         flex-flow: row wrap;
+        justify-content: space-around;
     }
-    div.c1, div.c2, div.c3, div.c4, div.c5, div.c6 {
+    div.c1,
+    div.c2,
+    div.c3,
+    div.c4,
+    div.c5,
+    div.c6 {
         width: auto;
         height: auto;
-        padding: 20px;
+        padding: 20px 45px 20px 45px;
     }
 }
 @media (max-width: 799px) {
-         
+    body {
+    background-color: #ffe0fb;
+    margin: 0px;
+}
     header {
         position: relative;
         top: 0px;
@@ -92,6 +132,19 @@ body {
         font-family: "Ailerons", sans-serif;
         font-size: 64px;
         text-align: center;
+    }
+    .hamburger{
+        background-color: rgb(105, 45, 97);
+        top: 0px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        line-height: 45px;
+        padding: 5px 5px 5px 5px;
+        color: #ffadf4;
+        border: 0;
+        font-size: 40px;
     }
     footer {
         position: relative;
@@ -106,10 +159,18 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-div.c1, div.c2, div.c3, div.c4, div.c5, div.c6 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 0px 10px 0px;
+   div.c1 {
+        display: block;
+        text-align: center;
+        padding: 20px 0px 10px 0px;
+    }
+    div.c2,
+    div.c3,
+    div.c4,
+    div.c5,
+    div.c6 {
+        display: block;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
     }
 }

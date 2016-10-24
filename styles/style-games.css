@@ -44,11 +44,23 @@ Light white: 15, 12, 100 #ffe8e0; rgb(255, 232, 224)
 html {
     margin: 0px;
 }
-body {
-    background-color: #f0fdff;
+a.banner:link {
+    color: #ffc2ad;
+    text-decoration: none;
 }
-
+a.banner:visited {
+    color: #ffc2ad;
+    text-decoration: none;
+}
+a.banner:hover {
+    color: #ffe8e0;
+    text-decoration: none;
+}
 @media (min-width: 800px) {
+    body {
+    background-color: #f0fdff;
+    margin: 0px;
+}
     header {
         position: fixed;
         top: 0px;
@@ -59,10 +71,23 @@ body {
         font-size: 64px;
         text-align: center;
     }
+         .hamburger {
+        background-color: rgba(105, 59, 45, .8);
+        top: 77px;
+        position: fixed;
+        width: 100%;
+        margin: 0px;
+        line-height: 45px;
+        padding: 5px 15px 5px 15px;
+        color: #ffc2ad;
+        border: 0;
+        font-size: 48px;
+    }
     footer {
         position: fixed;
         bottom: 0px;
         width: 100%;
+        padding: 10px 0px 10px 0px;
         background-color: rgba(105, 59, 45, .8);
         color: #ffc2ad;
         font-size: 16px;
@@ -70,19 +95,29 @@ body {
         text-align: center;
     }
     div.container {
+        margin-top: 10%;
         display: -webkit-flex;
         display: flex;
         -webkid-flex-flow: row wrap;
         flex-flow: row wrap;
+        justify-content: space-around;
     }
-    div.c1, div.c2, div.c3, div.c4, div.c5, div.c6 {
+    div.c1,
+    div.c2,
+    div.c3,
+    div.c4,
+    div.c5,
+    div.c6 {
         width: auto;
         height: auto;
-        padding: 20px;
+        padding: 20px 45px 20px 45px;
     }
 }
 @media (max-width: 799px) {
-         
+    body {
+    background-color: #ffe8e0;
+    margin: 0px;
+}
     header {
         position: relative;
         top: 0px;
@@ -93,6 +128,19 @@ body {
         font-family: "Ailerons", sans-serif;
         font-size: 64px;
         text-align: center;
+    }
+    .hamburger{
+        background-color: rgb(105, 59, 45);
+        top: 0px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        line-height: 45px;
+        padding: 5px 5px 5px 5px;
+        color: #ffc2ad;
+        border: 0;
+        font-size: 40px;
     }
     footer {
         position: relative;
@@ -107,10 +155,18 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-div.c1, div.c2, div.c3, div.c4, div.c5, div.c6 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 0px 10px 0px;
+   div.c1 {
+        display: block;
+        text-align: center;
+        padding: 20px 0px 10px 0px;
+    }
+    div.c2,
+    div.c3,
+    div.c4,
+    div.c5,
+    div.c6 {
+        display: block;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
     }
 }
