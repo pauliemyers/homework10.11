@@ -1,0 +1,266 @@
+@font-face {
+    font-family: Ailerons;
+    src: url(font/ailerons/ailerons-typeface.otf);
+    /* https://www.behance.net/gallery/25541553/Ailerons-Typeface */
+}
+@font-face {
+    font-family: Coves;
+    src: url(font/coves-font/coves-light.otf);
+}
+@font-face {
+    font-family: Coves;
+    src: url(font/coves-font/coves-bold.otf);
+    font-weight: bold;
+    /* https://www.behance.net/gallery/32715299/Coves-Free-Font */
+}
+@font-face {
+    font-family: Kano;
+    src: url(font/kano_regular/kano.otf);
+    /* https://www.behance.net/gallery/26796663/Kano-Typeface-(Free-Font) */
+}
+
+/*All button artwork and my edited About Me picture were made using pixlr.com/editor */
+/*Photo credit for the About Me picture goes to my friend, Matt, who makes me look better than I ever can*/
+/*Many thanks to my boyfriend Jacob and all the friends who stuck with me through this project and the near-sleepless nights it induced, including Evin, Trevor, Lotty, and Jason*/ 
+
+html {
+    margin: 0px;
+}
+
+@media (min-width: 800px) {
+    html {
+        margin: 0px;
+        background-color: hsl(14, 6%, 100%)
+    }
+        header {
+        position: fixed;
+        top: 0px;
+        margin: 0px;
+        width: 100%;
+        background-color: rgba(74, 100, 105, .8);
+        color: #d6f9ff;
+        font-family: "Ailerons", sans-serif;
+        font-size: 64px;
+        text-align: center;
+    }
+     footer {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        background-color: rgba(74, 100, 105, .8);
+        color: #d6f9ff;
+        font-size: 16px;
+        font-family: "Kano", sans-serif;
+        text-align: center;
+    }
+    h1 {
+        display: block;
+        margin-top: 87px;
+        font-family: "Ailerons", sans-serif;
+        font-size: 48px;
+        color: hsl(189, 14%, 42%);
+    }
+    div.aeilerons-section {
+        font-family: "Ailerons", sans-serif;
+        color: hsl(189, 14%, 42%);
+        font-size: 48px;
+    }
+    li.header {
+        font-size: 64px;
+    }
+    li.title {
+        font-size: 48px;
+    }
+    div.kano-section {
+        font-family: "Kano", sans-serif;
+        color: hsl(189%, 14%, 42%);
+        font-size: 48px;
+    }
+    li.footer {
+        font-size: 16px;
+    }
+    div.coves-section {
+        font-family: "Coves", sans-serif;
+        color: hsl(189, 14%, 42%);
+        font-size: 48px;
+    }
+    li.nav {
+        font-size: 16px;
+    }
+    li.captions {
+        font-size: 24px;
+    }
+    p {
+        font-family: "Kano", sans-serif;
+        color: hsl(189, 14%, 42%);
+        font-size: 16px;
+    }
+    table {
+        border-color: black;
+        border-width: 5px;
+    }
+    th {
+        font-family: "Coves", sans-serif;
+        color: hsl(189%, 14%, 42%);
+        font-size: 12px;
+    }
+    td.aboutme-darkest {
+        background-color: hsl(189, 14%, 28%);
+    }
+    td.aboutme-dark {
+        background-color: hsl(189, 27%, 28%);
+    }
+    td.aboutme-mediumgray {
+        background-color: hsl(189, 14%, 53%);
+    }
+    td.aboutme-medium {
+        background-color: hsl(189, 37%, 53%);
+    }
+    td.aboutme-lightgray {
+        background-color: hsl(189, 14%, 78%);
+    }
+    td.aboutme-light {
+        background-color: #d6f9ff;
+    }
+    td.aboutme-lightest {
+        background-color: #f0fdff;
+    }
+    td.art-darkest {
+        background-color: hsl(37, 28%, 28%);
+    }
+    td.art-dark {
+        background-color: hsl(37, 57%, 28%);
+    }
+    td.art-mediumgray {
+        background-color: hsl(37, 28%, 53%);
+    }
+    td.art-medium {
+        background-color: hsl(37, 74%, 53%);
+    }
+    td.art-lightgray {
+        background-color: hsl(37, 28%, 78%);
+    }
+    td.art-light {
+        background-color: #ffe0ad;
+    }
+    td.art-lightest {
+        background-color: #fff3e0;
+    }
+    td.audio-darkest {
+        background-color: hsl(4, 28%, 28%);
+    }
+    td.audio-dark {
+        background-color: hsl(4, 57%, 28%);
+    }
+    td.audio-mediumgray {
+        background-color: hsl(4, 28%, 53%);
+    }
+    td.audio-medium {
+        background-color: hsl(4, 74%, 53%);
+    }
+    td.audio-lightgray {
+        background-color: hsl(4, 28%, 78%);
+    }
+    td.audio-light {
+        background-color: #ffb3ad;
+    }
+    td.audio-lightest {
+        background-color: #ffe2e0;
+    }
+    td.design-darkest {
+        background-color: hsl(344, 28%, 28%);
+    }
+    td.design-dark {
+        background-color: hsl(344, 57%, 28%);
+    }
+    td.design-mediumgray {
+        background-color: hsl(344, 28%, 53%);
+    }
+    td.design-medium {
+        background-color: hsl(344, 74%, 53%);
+    }
+    td.design-lightgray {
+        background-color: hsl(344, 28%, 78%);
+    }
+    td.design-light {
+        background-color: #ffadc3;
+    }
+    td.design-lightest {
+        background-color: #ffe0e9;
+    }
+    td.games-darkest {
+        background-color: hsl(15, 28%, 28%);
+    }
+    td.games-dark {
+        background-color: hsl(15, 57%, 28%);
+    }
+    td.games-mediumgray {
+        background-color: hsl(15, 28%, 53%);
+    }
+    td.games-medium {
+        background-color: hsl(15, 74%, 53%);
+    }
+    td.games-lightgray {
+        background-color: hsl(15, 28%, 78%);
+    }
+    td.games-light {
+        background-color: #ffc2ad;
+    }
+    td.games-lightest {
+        background-color: #ffe8e0;
+    }
+    td.stream-darkest {
+        background-color: hsl(308, 28%, 28%);
+    }
+    td.stream-dark {
+        background-color: hsl(308, 57%, 28%);
+    }
+    td.stream-mediumgray {
+        background-color: hsl(308, 28%, 53%);
+    }
+    td.stream-medium {
+        background-color: hsl(308, 74%, 53%);
+    }
+    td.stream-lightgray {
+        background-color: hsl(308, 28%, 78%);
+    }
+    td.stream-light {
+        background-color: #ffadf4;
+    }
+    td.stream-lightest {
+        background-color: #ffe0fb;
+    }
+    
+    li {
+        font-family: "Kano", sans-serif;
+        color: hsl(189, 14%, 42%);
+        font-size: 16px;
+    }
+    li li {
+        font-family: "Kano", sans-serif;
+        color: hsl(189, 14%, 42%);
+        font-size: 12px;
+    }
+    h1.screentoosmall {
+        display: none;
+    }
+}
+
+@media (max-width: 799px) {
+    html {
+        background-color: black
+    }
+    h1.screentoosmall {
+        display: block;
+        text-align: center;
+        font-family: "Kano", sans-serif;
+        font-size: 24px;
+        color: #ffadf4;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    div.main-content {
+        display: none;
+    }
+}
