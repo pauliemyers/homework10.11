@@ -70,18 +70,6 @@ a.banner:hover {
         font-size: 64px;
         text-align: center;
     }
-         .hamburger {
-        background-color: rgba(105, 45, 60, .8);
-        top: 77px;
-        position: fixed;
-        width: 100%;
-        margin: 0px;
-        line-height: 45px;
-        padding: 5px 15px 5px 15px;
-        color: #ffadc3;
-        border: 0;
-        font-size: 48px;
-    }
     footer {
         position: fixed;
         bottom: 0px;
@@ -93,6 +81,32 @@ a.banner:hover {
         font-family: "Kano", sans-serif;
         text-align: center;
     }
+   ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        width: 100px;
+        margin-top: 87px;
+        text-align: center;
+        font-family: "Coves", sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    li a:link {
+        color: #b52f53;
+    }
+    li a:visited {
+        color: #b52f53;
+    }
+    li a:hover {
+        color: #87616b;
+    }
     div.container {
         margin-top: 10%;
         display: -webkit-flex;
@@ -101,15 +115,42 @@ a.banner:hover {
         flex-flow: row wrap;
         justify-content: space-around;
     }
-    div.c1,
-    div.c2,
-    div.c3,
-    div.c4,
-    div.c5,
-    div.c6 {
+    div.container div.c1 {
         width: auto;
         height: auto;
         padding: 20px 45px 20px 45px;
+    }
+    div.container-content div.c1{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        top: 25px;
+        position: relative;
+        align-content: center;
+        font-family: "Ailerons", sans-serif;
+        font-size: 48;
+        color: rgb(105, 45, 60);
+    }
+    div.container-content div.c2 {
+        display: block;
+        position: relative;
+        top: 25px;
+        align-content:center;
+        text-align: center;
+    }
+    div.container-content div.c3 {
+        display: block;
+        width: 60%;
+        position: relative;
+        margin-top: 25px;
+        text-align: center;
+        font-family: "Coves", sans-serif;
+        font-size: 20px;
+        color: rgb(105, 45, 60);
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 @media (max-width: 799px) {
@@ -128,44 +169,82 @@ a.banner:hover {
         font-size: 64px;
         text-align: center;
     }
-    .hamburger{
-        background-color: rgb(105, 45, 60);
-        top: 0px;
-        position: relative;
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-        line-height: 45px;
-        padding: 5px 5px 5px 5px;
-        color: #ffadc3;
-        border: 0;
-        font-size: 40px;
-    }
     footer {
-        position: relative;
+        position: fixed;
         bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
         background-color: rgb(105, 45, 60);
         color: #ffadc3;
         font-size: 16px;
         font-family: "Kano", sans-serif;
         text-align: center;
+    }
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
         margin-left: auto;
         margin-right: auto;
+    }
+    li a {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        margin-top: 10px;
+        text-align: center;
+        font-family: "Coves", sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+    }
+     li a:link {
+        color: #b52f53;
+    }
+    li a:visited {
+        color: #b52f53;
+    }
+    li a:hover {
+        color: #87616b;
     }
    div.c1 {
         display: block;
         text-align: center;
         padding: 20px 0px 10px 0px;
     }
-    div.c2,
-    div.c3,
-    div.c4,
-    div.c5,
-    div.c6 {
-        display: block;
+     div.container-content div.c1{
+        display: inline-block;
         text-align: center;
-        padding: 10px 0px 10px 0px;
+        width: 100%;
+        top: 25px;
+        position: relative;
+        align-content: center;
+        font-family: "Ailerons", sans-serif;
+        font-size: 48;
+        color: rgb(105, 45, 60);
     }
+    div.container-content div.c2 {
+        display: block;
+        position: relative;
+        top: 25px;
+        align-content:center;
+        text-align: center;
+    }
+    div.container-content div.c3 {
+        display: block;
+        width: 60%;
+        position: relative;
+        margin-top: 25px;
+        text-align: center;
+        font-family: "Coves", sans-serif;
+        font-size: 20px;
+        color: rgb(105, 45, 60);
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
 }

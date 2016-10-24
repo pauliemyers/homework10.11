@@ -62,9 +62,49 @@ a.banner:hover {
 
 @media (min-width: 800px) {
     body {
-    background-color: #f0fdff;
-    margin: 0px;
-}
+        background-color: #f0fdff;
+        margin: 0px;
+    }
+    .c1 {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        top: 25px;
+        position: relative;
+        align-content: center;
+        font-family: "Ailerons", sans-serif;
+        font-size: 48px;
+        color: #692d61;
+    }
+    .c2 {
+        display: block;
+        width: 40%;
+        position: relative;
+        margin-top: 80px;
+        text-align: center;
+        font-family: "Coves", sans-serif;
+        font-size: 24px;
+        color: #876182;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: auto;
+        padding-bottom: auto;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .c2 a:link {
+        text-decoration: none;
+        color: #72abb5;
+    }
+    .c2 a:visited {
+        text-decoration: none;
+        color: #72abb5;
+    }
+    .c2 a:hover {
+        text-decoration: none;
+        color: #b52fa3;
+    }
     header {
         position: fixed;
         top: 0px;
@@ -74,18 +114,6 @@ a.banner:hover {
         font-family: "Ailerons", sans-serif;
         font-size: 64px;
         text-align: center;
-    }
-         .hamburger {
-        background-color: rgba(105, 45, 97, .8);
-        top: 77px;
-        position: fixed;
-        width: 100%;
-        margin: 0px;
-        line-height: 45px;
-        padding: 5px 15px 5px 15px;
-        color: #ffadf4;
-        border: 0;
-        font-size: 48px;
     }
     footer {
         position: fixed;
@@ -98,30 +126,38 @@ a.banner:hover {
         font-family: "Kano", sans-serif;
         text-align: center;
     }
-    div.container {
-        margin-top: 10%;
-        display: -webkit-flex;
-        display: flex;
-        -webkid-flex-flow: row wrap;
-        flex-flow: row wrap;
-        justify-content: space-around;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
-    div.c1,
-    div.c2,
-    div.c3,
-    div.c4,
-    div.c5,
-    div.c6 {
-        width: auto;
-        height: auto;
-        padding: 20px 45px 20px 45px;
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        width: 100px;
+        margin-top: 87px;
+        text-align: center;
+        font-family: "Coves", sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    li a:link {
+        color: #b52fa3;
+    }
+    li a:visited {
+        color: #b52fa3;
+    }
+    li a:hover {
+        color: #876182;
     }
 }
 @media (max-width: 799px) {
     body {
-    background-color: #ffe0fb;
-    margin: 0px;
-}
+        background-color: #ffe0fb;
+        margin: 0px;
+    }
     header {
         position: relative;
         top: 0px;
@@ -133,44 +169,84 @@ a.banner:hover {
         font-size: 64px;
         text-align: center;
     }
-    .hamburger{
-        background-color: rgb(105, 45, 97);
-        top: 0px;
-        position: relative;
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-        line-height: 45px;
-        padding: 5px 5px 5px 5px;
-        color: #ffadf4;
-        border: 0;
-        font-size: 40px;
-    }
     footer {
-        position: relative;
+        position: absolute;
         bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
         background-color: rgb(105, 45, 97);
         color: #ffadf4;
         font-size: 16px;
         font-family: "Kano", sans-serif;
         text-align: center;
+    }
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
         margin-left: auto;
         margin-right: auto;
     }
-   div.c1 {
+    li a {
         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        margin-top: 10px;
         text-align: center;
-        padding: 20px 0px 10px 0px;
+        font-family: "Coves", sans-serif;
+        font-size: 16px;
+        text-decoration: none;
     }
-    div.c2,
-    div.c3,
-    div.c4,
-    div.c5,
-    div.c6 {
-        display: block;
+    .c1 {
+        display: inline-block;
         text-align: center;
-        padding: 10px 0px 10px 0px;
+        width: 100%;
+        top: 25px;
+        position: relative;
+        align-content: center;
+        font-family: "Ailerons", sans-serif;
+        font-size: 48px;
+        color: #692d61;
+    }
+    .c2 {
+        display: block;
+        width: 60%;
+        position: relative;
+        margin-top: 80px;
+        text-align: center;
+        font-family: "Coves", sans-serif;
+        font-size: 24px;
+        color: #876182;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: auto;
+        padding-bottom: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .c2 a:link {
+        text-decoration: none;
+        color: #72abb5;
+    }
+    .c2 a:visited {
+        text-decoration: none;
+        color: #72abb5;
+    }
+    .c2 a:hover {
+        text-decoration: none;
+        color: #b52fa3;
+    }
+     li a:link {
+        color: #b52fa3;
+    }
+    li a:visited {
+        color: #b52fa3;
+    }
+    li a:hover {
+        color: #876182;
     }
 }
