@@ -100,7 +100,7 @@ a.banner:hover {
         text-align: center;
     }
     footer {
-        position: fixed;
+        position: relative;
         bottom: 0px;
         width: 100%;
         padding: 10px 0px 10px 0px;
@@ -184,6 +184,7 @@ a.banner:hover {
     }
     footer {
         position: absolute;
+        display: block;
         bottom: 0px;
         width: 100%;
         background-color: rgb(105, 48, 45);

@@ -172,6 +172,7 @@ a.banner:hover {
     }
     footer {
         position: fixed;
+        display: block;
         bottom: 0px;
       width: 100%;
         background-color: rgb(105, 82, 45);

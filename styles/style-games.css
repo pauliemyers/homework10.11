@@ -154,7 +154,8 @@ a.banner:hover {
         text-align: center;
     }
     footer {
-        position: absolute;
+        position: relative;
+        display: block;
         bottom: 0px;
         background-color: rgb(105, 59, 45);
         color: #ffc2ad;

@@ -72,18 +72,6 @@ a.banner:hover {
         font-size: 64px;
         text-align: center;
     }
-    .hamburger {
-        background-color: rgba(74, 100, 105, .8);
-        top: 77px;
-        position: fixed;
-        width: 100%;
-        margin: 0px;
-        line-height: 45px;
-        padding: 5px 15px 5px 15px;
-        color: #d6f9ff;
-        border: 0;
-        font-size: 48px;
-    }
     footer {
         position: fixed;
         bottom: 0px;
@@ -130,19 +118,6 @@ a.banner:hover {
         text-align: center;
         z-index: 0
     }
-    .hamburger{
-        background-color: rgb(74, 100, 105);
-        top: 0px;
-        position: relative;
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-        line-height: 45px;
-        padding: 5px 5px 5px 5px;
-        color: #d6f9ff;
-        border: 0;
-        font-size: 40px;
-}
     footer {
         position: relative;
         bottom: 0px;
